@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping package="com.maven1.beans">
+	<class name="Tramite" table="Tramite">
+		<id name="idTramite" column="idTramite">
+
+			<generator class="native" />
+
+
+		</id>
+		<property name="tipoTramite" type="string" />
+		<!-- mapping del resto de las filas -->
+
+		<property name="fechaTramite" type="timestamp" />
+	</class>
+
+
+</hibernate-mapping>
